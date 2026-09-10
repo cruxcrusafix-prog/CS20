@@ -29,6 +29,8 @@ public class Rectangle
 		//Display the width and length on the console
 				System.out.print("The width is: " + width);
 				System.out.print(" The length is: " + length);
+			
+		//Hello
 				
 	}
 	
