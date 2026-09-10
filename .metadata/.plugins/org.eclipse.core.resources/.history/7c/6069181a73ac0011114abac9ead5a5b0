@@ -1,0 +1,24 @@
+package Skillbuilders;
+
+import java.util.Scanner;
+
+public class Rectangle 
+{
+
+	public static void main(String[] args) 
+	{
+		//Declare Variables
+		int length;
+		int width;
+		
+		//Create a Scanner Object
+		Scanner userinput = new Scanner(System.in);
+		
+		//Get the width value from the user
+		width = userinput.nextInt();
+		
+		//Get the length value from the user
+				length = userinput.nextInt();
+	}
+
+}
