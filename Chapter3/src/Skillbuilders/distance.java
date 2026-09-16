@@ -27,9 +27,9 @@ public class distance {
 	
 		kilometres2 = userinput.nextDouble();
 	
-		System.out.println("The first racer's distance is: " + kilometres + " km");
-		System.out.println("The second racer's distance is: " + kilometres1 + " km");
-		System.out.println("The third racer's distance is: " + kilometres2 + " km");
+		System.out.println("The first racer's distance is: " + kilometres + " kilometres");
+		System.out.println("The second racer's distance is: " + kilometres1 + " kilometres");
+		System.out.println("The third racer's distance is: " + kilometres2 + " kilometres");
 	
 	
 		if(kilometres >= kilometres1 && kilometres >= kilometres2) {
@@ -65,6 +65,14 @@ public class distance {
 		System.out.println("The second player is the runner-up!");
 		System.out.println("The first player is in last!");
 		}
+	
+		
+		
+		
+		
+		}
+		
+		
 		
 		}
 		
@@ -79,4 +87,4 @@ public class distance {
 	
 	}
 	
-}
+
