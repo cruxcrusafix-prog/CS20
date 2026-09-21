@@ -1,3 +1,17 @@
+/*
+
+Program: randomnumber.java          Last Date of this Revision: September 21, 2026
+
+Purpose: An application that uses nested for loops to output a table that displays number in 
+ multiples of ten.
+
+Author: Your Name, 
+School: CHHS
+Course: Computer Programming 20
+ 
+
+*/
+
 package Skillbuilders;
 
 import java.util.Scanner;
@@ -26,53 +40,5 @@ System.out.println("Random number: "
 				+ (int)((max - min + 1) * Math.random()
 				+ min));
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	}
 }
-
-}
-
-
-
-
