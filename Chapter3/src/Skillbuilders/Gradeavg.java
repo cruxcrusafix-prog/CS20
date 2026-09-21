@@ -34,7 +34,7 @@ public class Gradeavg {
 			} else if (average >= 80) {
 				System.out.println("That's a pretty good mark! Keep it up and you'll succeed no problem.");
 			} else if (average >= 70) {
-				System.out.println("Not bad but you could improve. You did good though");
+				System.out.println("Not bad but you could improve. You did good though.");
 			} else if (average >= 60) {
 				System.out.println("Oof! That was a disappointing grade for you. But you'll bounce back.");
 			} else if (average >= 50) {
