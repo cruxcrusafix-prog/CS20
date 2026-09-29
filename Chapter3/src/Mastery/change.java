@@ -9,7 +9,7 @@ public class change {
 		Scanner userinput = new Scanner(System.in); {}
 		
 		
-		//Prompt the user into giving an amount of change
+
 		System.out.println("Enter the amount of change: ");
 		
 		int cents = userinput.nextInt();
