@@ -1,0 +1,17 @@
+﻿IPO CHART
+
+
+Program name:
+	Change
+	INPUT
+	PROCESS
+	OUTPUT
+	Hint: What will the user input?
+	Hint: What is the program going to do with the input information?
+	Hint: What will the screen display after user input?
+	The user will input their guess on what number out of 20 the program selected
+	The program will compare its answer and the user’s answer, determining if the user guessed correctly or not
+	The program will display its number and the user’s number, if the user guessed correctly, it will congratulate said user, if not, it wishes better luck next time.
+	
+
+Code is shown in GitHub
