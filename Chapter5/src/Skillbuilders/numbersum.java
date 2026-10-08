@@ -15,7 +15,7 @@ int sum2 = 0;
 while (true) {
 int userinputsum = userinput.nextInt();
 
-
+//Type to break the code (doesn't work, it just subtracts)
 if(sum == -1) {
 	break;
 }
