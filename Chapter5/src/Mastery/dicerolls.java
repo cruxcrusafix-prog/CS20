@@ -28,26 +28,14 @@ public class dicerolls {
 		System.out.println("Enter Roll die 2 to roll the second die: ");
 		
 		String input1 = scanner.nextLine();
-		
+		//The command the user should input. Not case sensitive
 		if(input1.equalsIgnoreCase("Roll die 2")) {
-		
+			//Shows what the user rolled
 		System.out.println("You rolled a " + Rollseconddie);
 		
 		} else { System.out.println("Incorrect command. Please enter Roll die 2");
 		}
-		System.out.println("Your dice rolled " + Diceroll + " in total");
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		//What the user got in total, placed outside the else statements
+		System.out.println("Your dice rolled " + Diceroll + " in total");		
 	}
 }
-
