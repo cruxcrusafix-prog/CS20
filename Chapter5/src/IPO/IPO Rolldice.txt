@@ -1,0 +1,14 @@
+﻿IPO CHART
+
+
+Program name:
+	Rolldice
+	INPUT
+	PROCESS
+	OUTPUT
+	Hint: What will the user input?
+	Hint: What is the program going to do with the input information?
+	Hint: What will the screen display after user input?
+	The program will prompt the user by asking the user to enter “roll die 1” and then “roll die 2”.
+	After the user enters their prompt, the program will pick a random number from 1 to 6 for 2 dice.
+	Once the user enters both “roll die 1” and “roll die 2” and the program rolls both dice, it will show what number the user rolled.
