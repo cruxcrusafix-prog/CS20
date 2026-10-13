@@ -21,7 +21,7 @@ public class dicerolls {
 		if(input.equalsIgnoreCase("Roll die 1")) {
 		
 		//Shows what the user rolled
-		System.out.println("You rolled a " + Rollfirstdie);
+		System.out.println("You rolled a " + Rollfirstdie + "!");
 		
 		} else { System.out.println("Incorrect command. Please enter Roll die 1");
 		}
@@ -31,11 +31,11 @@ public class dicerolls {
 		//The command the user should input. Not case sensitive
 		if(input1.equalsIgnoreCase("Roll die 2")) {
 			//Shows what the user rolled
-		System.out.println("You rolled a " + Rollseconddie);
+		System.out.println("You rolled a " + Rollseconddie + "!");
 		
 		} else { System.out.println("Incorrect command. Please enter Roll die 2");
 		}
 		//What the user got in total, placed outside the else statements
-		System.out.println("Your dice rolled " + Diceroll + " in total");		
+		System.out.println("Your dice rolled " + Diceroll + " in total!");		
 	}
 }
