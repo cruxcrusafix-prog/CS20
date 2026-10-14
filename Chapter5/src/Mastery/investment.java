@@ -9,14 +9,16 @@ public class investment {
 		Scanner userinput = new Scanner(System.in); {}
 	
 		Scanner scanner = new Scanner(System.in);
-	
-		BigDecimal baseprice = null;
+	//User chooses their price. Must be below the target price to work properly
+		BigDecimal basemoney = null;
+		
+	//Every month, the user's money will have 7.5% more than previously.
 		BigDecimal monthlymultiplier = new BigDecimal (1.075);
-		System.out.println("Enter your price: ");
+		System.out.println("Enter your money: ");
 	
 		String userInput = scanner.nextLine();
 	
-		baseprice = new BigDecimal(userInput);
+		basemoney = new BigDecimal(userInput);
 	
 	//ENTER YOUR TARGET PRICE HERE
 		BigDecimal Targetprice = new BigDecimal (5000);
@@ -24,12 +26,12 @@ public class investment {
 		int months = 0;
 	
 		
-		while (baseprice.compareTo(Targetprice) < 0) {
+		while (basemoney.compareTo(Targetprice) < 0) {
 		months++;
 	
-		baseprice = baseprice.multiply(monthlymultiplier).setScale(2, RoundingMode.HALF_UP);
+		basemoney = basemoney.multiply(monthlymultiplier).setScale(2, RoundingMode.HALF_UP);
 		}
-		System.out.println("On month " + months + ", you have achieved your target price of $" + Targetprice + " with $" + baseprice);
+		System.out.println("On month " + months + ", you have achieved your target price of $" + Targetprice + " with $" + basemoney);
 	
 	
 	
