@@ -25,9 +25,10 @@ int usernumber = userinput.nextInt();
 	
 int correctanswer = (number1 * number2);
 		
-		
+//The message that is sent to determine that the user is correct
 if (usernumber == correctanswer) {		
 	System.out.println("Nice job, you got it.");	
+//The message that is sent to show that the user made a mistake in their answer
 } else { if (usernumber != correctanswer) {
 	System.out.println("Not quite right, the correct answer is: " + correctanswer );
 }
