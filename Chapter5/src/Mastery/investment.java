@@ -21,7 +21,7 @@ public class investment {
 		basemoney = new BigDecimal(userInput);
 	
 	//ENTER YOUR TARGET PRICE HERE
-		BigDecimal Targetprice = new BigDecimal (500);
+		BigDecimal Targetprice = new BigDecimal (1000000);
 	
 		int months = 0;
 	

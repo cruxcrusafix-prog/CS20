@@ -1,0 +1,14 @@
+﻿IPO CHART
+
+
+Program name:
+	Investment
+	INPUT
+	PROCESS
+	OUTPUT
+	Hint: What will the user input?
+	Hint: What is the program going to do with the input information?
+	Hint: What will the screen display after user input?
+	The user will input how much money they have. They must also add what their target price is (in the code).
+	The program will multiply the user’s money by 1.075 (7.5%) each month.
+	When the user’s money has reached their target price, the program will show how many months it took, as well as how much money they finally ended up with at the last month.
