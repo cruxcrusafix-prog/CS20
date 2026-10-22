@@ -15,7 +15,7 @@ int hours = (Totalseconds % 86400) / 3600;
 int minutes = ((Totalseconds % 86400) % 3600) / 60;		
 
 
-//Will should if there is only 1 day, hour, or minute, which'll remove the s if true.
+//Will remove the s if there is only 1 day, hour, or minute, to make the word singular rather than plural.
 if (days == 1) {
 	System.out.print(days + " day, ");
 } else {
