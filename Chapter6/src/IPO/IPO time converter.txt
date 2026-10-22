@@ -1,0 +1,16 @@
+﻿IPO CHART
+
+
+Program name:
+	timeconverter
+	INPUT
+	PROCESS
+	OUTPUT
+	Hint: What will the user input?
+	Hint: What is the program going to do with the input information?
+	Hint: What will the screen display after user input?
+	The user will input in the program how many seconds they would like to add (until positive integer limit)
+	They will split the amount of seconds into 3 areas, days, hours, and minutes. 
+	if there are >86400 seconds, they will be put in the day category, 3600 for hour, and 60 for minute. Anything that is 59 seconds or below will not be counted
+	The program will display how many days, hours, and/or minutes they have inputted through seconds. 
+	If there is only 1 of a category, said category will have the "S" at the end removed to singularize the word.
