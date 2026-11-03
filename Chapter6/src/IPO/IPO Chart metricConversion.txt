@@ -1,0 +1,20 @@
+﻿IPO CHART
+
+
+Program name:
+	metricconversion
+	INPUT
+	PROCESS
+	OUTPUT
+	Hint: What will the user input?
+	Hint: What is the program going to do with the input information?
+	Hint: What will the screen display after user input?
+	The user will be asked to pick their desired number to convert from one metric/imperial unit to another metric/imperial unit. Itwill then pick a number from 1-8 on the conversion they’d like.
+	(Example if the user picked option 2, feet to centimetres) The user wanted to convert 3 feet into centimetres. The program uses the switch statement to look through the 8 options, 
+	and it will look for case 2. Case 2 multiplies the chosen number to convert by 30.48 times, and the program will multiply 3 feet 30.48 so it’ll show the length in centimetres. 
+	It will also shorten decimal counts so as to not make the output length 10 decimals long.
+	
+	The program will output your metric and what it converts to. So for 3 feet to centimetres, it’ll output “3.00 feet will give you 91.440 centimetres.”
+	
+
+Code is shown in GitHub
