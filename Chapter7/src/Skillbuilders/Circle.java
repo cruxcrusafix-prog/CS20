@@ -29,7 +29,7 @@ Circle spot = new Circle();
 
 spot.setRadius(10);
 System.out.println("Circle radius: " + spot.getradius());
-System.out.println("Circle circumference: " + spot.getcircumference);
+System.out.println("Circle circumference: " + spot.getcircumference());
 
 }
 
