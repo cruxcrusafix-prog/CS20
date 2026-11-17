@@ -1,0 +1,17 @@
+﻿IPO CHART
+
+
+Program name:
+	guessinggame2
+	INPUT
+	PROCESS
+	OUTPUT
+	Hint: What will the user input?
+	Hint: What is the program going to do with the input information?
+	Hint: What will the screen display after user input?
+	The user will guess the program’s number from 1 to 50
+	The program will read the user’s answer and will determine whether the number is higher or lower than what they chose. 
+	The program will prompt the user to guess again and that the number is higher/lower until the user guesses the program’s selected number
+	
+
+Code is shown in GitHub

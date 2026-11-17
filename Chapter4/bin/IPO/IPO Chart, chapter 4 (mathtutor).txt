@@ -1,0 +1,17 @@
+﻿IPO CHART
+
+
+Program name:
+	Order
+	INPUT
+	PROCESS
+	OUTPUT
+	Hint: What will the user input?
+	Hint: What is the program going to do with the input information?
+	Hint: What will the screen display after user input?
+	The user gets a randomly generated multiplication question by the program, and is to answer the question with their guess.
+	The program compares the user’s answer to its question’s answer, and if everything checks out, they’ll pass the user
+	If the user answered correctly, the program will say that they got it. If not, the program will show them the correct answer they should’ve answered.
+	
+
+Code is shown in GitHub

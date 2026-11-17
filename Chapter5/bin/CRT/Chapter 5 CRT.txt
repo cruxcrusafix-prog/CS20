@@ -1,0 +1,58 @@
+﻿1. What is the purpose of a loop structure?
+2. Explain the difference between a while statement and a do-while statement.
+3. An input validation loop is a loop that checks user input for valid data. If valid data is not entered, the loop iterates until valid data is entered. In which review of chapter 5 did I write code for an input validation loop?
+4. a) What is an infinite loop?
+b) List two types of errors that can lead to an infinite loop.
+c) What is meant by overflow
+5. How many times will the do-while loop execute in this code?
+int x = 0;
+do {
+      x = x + 2;
+} while (x < 120);
+6. What initial value of x would make the loop infinite?
+do  {
+       x = x - 3
+}  while (x < 120);
+7. Compare and contrast counters and accumulators. List two uses of each
+8. Write a “for” statement that sums the integers from 3 to 10, inclusive.
+9. List two factors that should be considered when determining which loop structure to choose.  
+10. (11) Consider the following assignment:
+String x = “my string. “;
+Determine the value returned by each of the following methods.
+1. x.length()
+2. x.substring(0, 3)
+3. x.toLowerCase()
+4. x.toUpperCase
+5. x.trim()
+
+
+
+1. A loop structure’s purpose is to repeatedly execute a set of instructions/statements
+
+
+2. The difference between a while statement and a do-while statement is that a do-while statement’s condition is not scanned until its first loop
+
+
+3. The number sum skillbuilder
+
+
+4. An infinite loop is a loop with no false conditions, so it would keep generating loops forever until it is stopped.
+b) Syntax errors are parts of what makes an infinite loop, like if you put a semicolon after a condition.
+c) An overflow occurs when there is a number so big that there aren’t enough bits to store it fully.
+
+
+5. The code will execute the do-while statement 60 times.
+
+
+6. The code will run forever as x = x - 2, therefore x is subtracting, making the number get further and further away from 120.         
+7. Counters have many uses, such as observing how many times a user enters a password or how many times the user has clicked the mouse or keys. Accumulators are used to store a running value.
+8. for (int i = 3; i <= 10; i++) {
+        sum += i; }
+9. The for and while loops should be inputted if you know how many repeats there will be, so use the for loop if you know how many times it will repeat, and the while loop if not. The do-while and while loops should be inputted for executions of the code, do-while if it should only be run once, while loop if it should be skipped if the condition is incorrect.
+
+
+10. (11) x.length()will return how many characters there are; 11, 8 letters, 2 spaces, and 1 period.
+x.substring(0, 3) returns “my “
+x.toLowerCase() returns the exact same “my string. “
+x.toUpperCase() returns in all uppercase letters “MY STRING. “
+x.trim() removes the extra space at the end. “my string.”

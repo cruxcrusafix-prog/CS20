@@ -1,0 +1,17 @@
+﻿IPO CHART
+
+
+Program name:
+	Order
+	INPUT
+	PROCESS
+	OUTPUT
+	Hint: What will the user input?
+	Hint: What is the program going to do with the input information?
+	Hint: What will the screen display after user input?
+	The user will input the amount of burgers, fries, and/or sodas they want.
+	Each item costs a certain amount, and the program uses the BigDecimal code in order to round up the price and tax of the user’s order.
+	The program displays the cost before and after tax(5%).
+	
+
+Code is shown in GitHub

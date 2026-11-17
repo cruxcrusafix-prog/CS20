@@ -1,0 +1,17 @@
+﻿IPO CHART
+
+
+Program name:
+	spanishnumbers
+	INPUT
+	PROCESS
+	OUTPUT
+	Hint: What will the user input?
+	Hint: What is the program going to do with the input information?
+	Hint: What will the screen display after user input?
+	The user will input a number from 0-10.
+	With the user’s number, the program will search through the list of numerically ordered numbers in Spanish (0 or cero is first in line, so it will pick “cero” if 0 was selected and so on.)
+	The program will output “Your entered number: Siete”. This is if you picked 7 as your number but it’s just an example.
+	
+
+Code is shown in GitHub

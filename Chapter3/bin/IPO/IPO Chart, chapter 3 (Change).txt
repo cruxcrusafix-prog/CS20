@@ -1,0 +1,17 @@
+﻿IPO CHART
+
+
+Program name:
+	Change
+	INPUT
+	PROCESS
+	OUTPUT
+	Hint: What will the user input?
+	Hint: What is the program going to do with the input information?
+	Hint: What will the screen display after user input?
+	The user will input a number, with 1 counting as 1 penny, 5 as 1 nickel, and so on.
+	The program will use this number to calculate how many coins and what type the user receives back.
+	The program displays the amount of coins the user receives determined by the user’s input number.
+	
+
+Code is shown in GitHub
