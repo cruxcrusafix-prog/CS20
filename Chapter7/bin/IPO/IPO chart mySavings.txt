@@ -1,0 +1,17 @@
+﻿IPO CHART
+
+
+Program name:
+	mysavings
+	INPUT
+	PROCESS
+	OUTPUT
+	Hint: What will the user input?
+	Hint: What is the program going to do with the input information?
+	Hint: What will the screen display after user input?
+	The program will give a user a menu of options that can be selected by choosing a number from 1-8. The amount of money in the piggy bank is shown at the top. 0 can be typed to quit.
+	The number the user selected asks the program whether to add or remove a certain coin. (Penny, nickel, dime, quarter)
+	For example, the user picks option 3 to add one dime. The program will create the menu again but their account shows $0.10, indicating that they’ve added a dime.
+	
+
+Code is shown in GitHub
