@@ -1,0 +1,17 @@
+﻿IPO CHART
+
+
+Program name:
+	adder
+	INPUT
+	PROCESS
+	OUTPUT
+	Hint: What will the user input?
+	Hint: What is the program going to do with the input information?
+	Hint: What will the screen display after user input?
+	The user will answer the basic math question
+	If the number to the equation is correct, then the user gets 5 points. If they don’t, they lose a life and get less points.
+	The program will say if you’re correct, and will ignore if you didn’t. Either way, it will ask another math question. It will continue until the user entered “999”
+	
+
+Code is shown in GitHub
